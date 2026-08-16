@@ -6,6 +6,7 @@ PROJECT_DIR="${0:A:h}"
 SOURCE_DIR="${PROJECT_DIR}/source"
 SITE_DIR="${PROJECT_DIR}/docs"
 PORT=8000
+CSS_VERSION=$(shasum -a 256 "${SITE_DIR}/styles.css" | cut -c1-10)
 
 cd "${SITE_DIR}"
 
@@ -22,7 +23,7 @@ pandoc "${SOURCE_DIR}/ghosts-in-the-machine.md" \
   --lua-filter="${SOURCE_DIR}/external-links.lua" \
   --metadata title= \
   --metadata "pagetitle=Ghosts in the Machines" \
-  --css=styles.css \
+  --css="styles.css?v=${CSS_VERSION}" \
   --output="${SITE_DIR}/index.html"
 
 python3 -m http.server "${PORT}" --bind 127.0.0.1 >/tmp/ghosts-in-machines-preview.log 2>&1 &
