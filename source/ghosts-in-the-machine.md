@@ -17,7 +17,7 @@ header-includes: |
   <meta name="twitter:image" content="https://drew3000.github.io/ghosts-in-the-machines/media/THX-1138-confession-booth.jpg">
 ---
 
-# Ghosts in the Machines <span class="byline">by <a href="https://andrewfordlyons.net">yours truly</a></span> {#ghosts-in-the-machines}
+# Ghosts in the Machines <span class="byline">by <a href="https://andrewfordlyons.net">yours truly</a></span> <span class="publication-meta">First pushed live <time datetime="2026-08-16">16 August 2026</time> · Last updated <time datetime="2026-08-16">16 August 2026</time></span> {#ghosts-in-the-machines}
 
 The artificial intelligence companies have established a useful new principle of authorship: if some writing can be found anywhere on the internet, you can shovel it into a machine, grind it into a fine statistical paste and use the resulting data blob to make something called *new*. I don't have a data centre, or several billion dollars in venture capital to burn through. Or a reservoir I can quietly drain. Sad. But I do have access to the zip file with the remains of [my old blog](https://web.archive.org/web/*/https://dystopia.report/). So I'm going to exercise the limited version of the same privilege and steal from myself. What follows is a mashup of four posts I banged out between September 2024 and March 2025, now Frankensteined together with new and exciting material. Think of this as part director's cut and salvage operation. You never read those posts anyway. All of this is new to you.
 

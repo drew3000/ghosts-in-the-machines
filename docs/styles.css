@@ -84,6 +84,17 @@ h1 .byline a {
   text-underline-offset: 0.18em;
 }
 
+h1 .publication-meta {
+  display: block;
+  margin-top: 0.55rem;
+  color: rgb(255 253 248 / 78%);
+  font-size: clamp(0.72rem, 1vw, 0.85rem);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 1.35;
+  text-shadow: 0 0 0.4em #000;
+}
+
 h2 {
   position: relative;
   width: fit-content;
