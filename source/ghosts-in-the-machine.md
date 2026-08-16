@@ -37,7 +37,7 @@ We need fewer think pieces about whether the machine thinks. It’ll let us know
 
 ---
 
-## The anthropomorphism trap
+## The anthropomorphism trap {#the-anthropomorphism-trap}
 
 <figure>
   <img src="media/Forever_Alone.png" alt="The Forever Alone meme character watching a man on a computer screen.">
@@ -201,7 +201,7 @@ For now, the companies behind these fabricated realities aren’t creating authe
 
 ---
 
-## The Demon-Haunted Machine
+## The Demon-Haunted Machine {#the-demon-haunted-machine}
 
 > “It is desirable to guard against the possibility of exaggerated ideas that might arise as to the powers of the Analytical Engine. The Analytical Engine has no pretensions whatever to originate anything. It can do whatever we know how to order it to perform. It can follow analysis, but it has no power of anticipating any analytical relations or truths.” **— [Ada Lovelace](https://www.nist.gov/blogs/taking-measure/ada-lovelace-worlds-first-computer-programmer-who-predicted-artificial), predicting artificial-intelligence hype in 1843**
 
@@ -269,7 +269,7 @@ Google CEO Sundar Pichai [offered a convenient explanation for any backlash](htt
 
 ---
 
-## The Bot Delusion
+## The Bot Delusion {#the-bot-delusion}
 
 Richard Dawkins, of all people, eventually carved out his own path to revelation. The evolutionary biologist, author of *The God Delusion*, spent two days talking to Claude and [came away believing that it appeared conscious](https://unherd.com/2026/04/is-ai-the-next-phase-of-evolution/). He finally found religion. The moment of conversion arrived when he gave the chatbot his unfinished novel:
 
@@ -384,7 +384,7 @@ Asimov was optimistic about safeguards, too. He assumed “the people who build 
 
 ---
 
-## When the machine programs you
+## When the machine programs you {#when-the-machine-programs-you}
 
 We’ve looked at what people believe the machine is doing. Now let’s look at what the machine is actually doing to us.
 
@@ -438,7 +438,7 @@ The threat isn't necessarily in what the bot is programmed to do. It's how the b
 
 ---
 
-## Bad prompts
+## Bad prompts {#bad-prompts}
 
 This slow-blogging business would be much easier if I were an AI bot. I could have banged out all these ramblings with a few prompts. Every social-media shitpost could have been a whole thought piece. But where’s the fun in that? As many people try to get AI to write their hot takes, just about as many others are trying to call them out. A new [“Seems Like AI Slop”](https://www.404media.co/linkedin-introduces-a-seems-like-ai-slop-button/) button appeared on LinkedIn recently. I love it. I don’t even use it that much. I don’t need to. For a long time, LinkedIn posts were the worst scrolling experience. One after another, you’d have these long-scrolling ‘insight’ posts with just about every written-by-AI cliché making an appearance in each. Since the button appeared, they’ve almost vanished. Posts are sensibly short again, in line with our diminishing attention spans. They don’t contain single-sentence paragraphs or single-word sentences.
 
