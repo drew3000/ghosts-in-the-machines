@@ -80,7 +80,7 @@ OpenAI and Harari were two sides of the same coin. The company really wanted use
 
 <figure>
   <img src="media/pay-no-attention.webp" alt="Animated scene from The Wizard of Oz in which the man behind the curtain is exposed.">
-  <figcaption>The Great and Powerful Wizard of Oz.(*The Wizard of Oz*, 1939) The character's full name is [Oscar Zoroaster Phadrig Isaac Norman Henkle Emmannuel Ambroise Diggs](https://en.wikipedia.org/wiki/Wizard_of_Oz_(character). Shortanted to 'Oscar Diggs,' a very Big Tech chief executive sounding name if you ask me.</figcaption>
+  <figcaption>The Great and Powerful Wizard of Oz. (*The Wizard of Oz*, 1939) The character's full name is [Oscar Zoroaster Phadrig Isaac Norman Henkle Emmannuel Ambroise Diggs](https://en.wikipedia.org/wiki/Wizard_of_Oz_%28character%29). Shortened to 'Oscar Diggs,' a very Big Tech chief executive sounding name if you ask me.</figcaption>
 </figure>
 
 At the same time, OpenAI was sending terms-of-service warnings to users trying to hack o1 into divulging its supposed reasoning process. The company had several understandable proprietary and security reasons for concealing its "internal chain-of-thought." What stood out was the language used to explain the policy: “[the model must have the freedom to express its thoughts](https://openai.com/index/learning-to-reason-with-llms/#hiding-the-chains-of-thought) in unaltered form.” OpenAI's software engineers could inspect them, but you needed to respect the machine’s boundaries.
