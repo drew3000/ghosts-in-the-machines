@@ -1,0 +1,268 @@
+:root {
+  color-scheme: light;
+  --page: #f4f1e9;
+  --paper: #fffdf8;
+  --text: #1e1e1b;
+  --muted: #66645d;
+  --rule: #cbc6b9;
+  --link: #8b281d;
+  --brown: #4a3b31;
+  --quote-panel: #e5d9c5;
+  --measure: 48rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--page);
+  color: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.05rem, 0.98rem + 0.25vw, 1.2rem);
+  line-height: 1.68;
+  text-rendering: optimizeLegibility;
+}
+
+body > .level1 {
+  width: min(100%, calc(var(--measure) + 4rem));
+  margin: 0 auto;
+  padding: clamp(2.5rem, 8vw, 6rem) clamp(1.25rem, 4vw, 2rem) 8rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.08;
+  text-wrap: balance;
+}
+
+h1 {
+  position: relative;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: min(68rem, calc(100vw - 3rem));
+  min-height: clamp(16rem, 39vw, 29rem);
+  margin: 0 0 clamp(3.5rem, 8vw, 6rem);
+  padding: clamp(1.25rem, 4vw, 3rem);
+  padding-left: 50%;
+  transform: translateX(-50%);
+  background-image:
+    linear-gradient(90deg, transparent 42%, rgb(0 0 0 / 12%) 62%, rgb(0 0 0 / 58%) 100%),
+    url("media/THX-1138-confession-booth.jpg");
+  background-position: center;
+  background-size: cover;
+  color: var(--paper);
+  font-size: clamp(3.4rem, 6.5vw, 6rem);
+  letter-spacing: -0.06em;
+  text-align: right;
+  text-shadow: 0.055em 0.055em 0 var(--link), 0 0 0.35em #000;
+}
+
+h1 .byline {
+  display: block;
+  margin-top: 0.85rem;
+  font-size: clamp(0.9rem, 1.4vw, 1.15rem);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+  text-shadow: 0 0 0.35em #000;
+}
+
+h1 .byline a {
+  color: var(--paper);
+  text-decoration-thickness: 0.07em;
+  text-underline-offset: 0.18em;
+}
+
+h2 {
+  position: relative;
+  width: fit-content;
+  max-width: calc(100% + 1.75rem);
+  margin: 0 0 2.4rem -1.75rem;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  letter-spacing: -0.045em;
+}
+
+h3 {
+  margin-top: 3rem;
+  font-size: clamp(1.4rem, 3vw, 2rem);
+}
+
+p,
+ul,
+ol,
+blockquote {
+  margin-top: 0;
+  margin-bottom: 1.45em;
+}
+
+ul {
+  list-style-type: "◈  ";
+}
+
+ul li::marker {
+  color: var(--brown);
+  font-size: 1.2em;
+}
+
+li + li {
+  margin-top: 0.45em;
+}
+
+a {
+  color: var(--link);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.14em;
+}
+
+a:hover {
+  text-decoration-thickness: 0.14em;
+}
+
+blockquote {
+  position: relative;
+  margin: 3.25rem -1.25rem;
+  padding: 2rem 2.2rem 1.85rem;
+  border: 0;
+  border-bottom: 0.4rem solid var(--link);
+  background: #d8bd8c;
+  color: #2d241c;
+  font-size: 1.24em;
+}
+
+blockquote::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 0.42rem;
+  background: linear-gradient(90deg, var(--link) 0 28%, transparent 28% 31%, var(--brown) 31% 100%);
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+blockquote strong {
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.78em;
+  letter-spacing: 0.015em;
+}
+
+hr {
+  position: relative;
+  width: 100%;
+  height: 1px;
+  margin: clamp(2.25rem, 5vw, 3.5rem) auto;
+  overflow: visible;
+  border: 0;
+  background: var(--brown);
+}
+
+hr::after {
+  content: "◈";
+  position: absolute;
+  top: 50%;
+  left: 31%;
+  padding: 0 0.55rem;
+  transform: translate(-50%, -50%);
+  background: var(--page);
+  color: var(--brown);
+  font-size: 1.35rem;
+  line-height: 1;
+}
+
+figure {
+  margin: clamp(2.5rem, 7vw, 4.5rem) auto;
+}
+
+figure img,
+figure video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-inline: auto;
+}
+
+figure img {
+  border: 1px solid var(--brown);
+}
+
+figure > a {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  margin-inline: auto;
+}
+
+figcaption {
+  max-width: 42rem;
+  margin: 0.8rem auto 0;
+  color: var(--muted);
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.82em;
+  line-height: 1.45;
+  text-align: center;
+}
+
+.video-embed {
+  aspect-ratio: 16 / 9;
+}
+
+.video-embed iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.figure--video video {
+  width: 100%;
+  background: #000;
+}
+
+.figure--meredith {
+  max-width: 42rem;
+}
+
+.figure--meredith img {
+  width: 100%;
+}
+
+@media (max-width: 38rem) {
+  h1 {
+    min-height: 16rem;
+    padding-right: 1.15rem;
+    padding-left: 38%;
+    background-position: 55% center;
+    font-size: clamp(2.7rem, 14vw, 4.2rem);
+  }
+
+  h2 {
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  blockquote {
+    margin-right: 0;
+    margin-left: 0;
+    padding: 1.2rem 1.1rem 1.25rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
