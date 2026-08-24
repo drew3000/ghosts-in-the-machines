@@ -8,8 +8,9 @@
   "publicationUri": "at://did:plc:usidppasjec2ycf6na3ipzfy/site.standard.publication/3mttzelnjry2v",
   "pathTemplate": "/",
   "bluesky": {
-    "enabled": false
-  },
+  "enabled": true,
+  "maxAgeDays": 30
+},
   "frontmatter": {
     "coverImage": "image"
   },
