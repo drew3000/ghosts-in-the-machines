@@ -1,6 +1,12 @@
 ---
 title: "Ghosts in the Machines"
-status: draft
+status: published
+publishDate: 2026-08-16
+updatedAt: 2026-08-21
+draft: false
+tags:
+  - artificial intelligence
+  - anthropomorphism
 description: "Notes on the anthropomorphism trap and what happens when we confuse the model with the thing itself."
 description-meta: "Notes on the anthropomorphism trap and what happens when we confuse the model with the thing itself."
 image: "media/THX-1138-confession-booth.jpg"
@@ -10,11 +16,14 @@ header-includes: |
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://drew3000.github.io/ghosts-in-the-machines/">
   <link rel="canonical" href="https://drew3000.github.io/ghosts-in-the-machines/">
+  <link rel="site.standard.publication" href="at://did:plc:usidppasjec2ycf6na3ipzfy/site.standard.publication/3mttzelnjry2v">
+  <link rel="site.standard.document" href="at://did:plc:usidppasjec2ycf6na3ipzfy/site.standard.document/3mtu2b3vfr72l">
   <meta property="og:image" content="https://drew3000.github.io/ghosts-in-the-machines/media/THX-1138-confession-booth.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Ghosts in the Machines">
   <meta name="twitter:description" content="Notes on the anthropomorphism trap and what happens when we confuse the model with the thing itself.">
   <meta name="twitter:image" content="https://drew3000.github.io/ghosts-in-the-machines/media/THX-1138-confession-booth.jpg">
+atUri: "at://did:plc:usidppasjec2ycf6na3ipzfy/site.standard.document/3mtu2b3vfr72l"
 ---
 
 # Ghosts in the Machines <span class="byline">by <a href="https://andrewfordlyons.net">yours truly</a></span> <span class="publication-meta">First pushed live <time datetime="2026-08-16">16 August 2026</time> · Last updated <time datetime="2026-08-21">21 August 2026</time></span> {#ghosts-in-the-machines}

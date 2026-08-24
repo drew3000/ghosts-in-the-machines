@@ -1,0 +1,17 @@
+{
+  "$schema": "https://tangled.org/stevedylan.dev/sequoia/raw/main/sequoia.schema.json",
+  "siteUrl": "https://drew3000.github.io/ghosts-in-the-machines",
+  "contentDir": "source",
+  "imagesDir": "docs/media",
+  "publicDir": "docs",
+  "outputDir": "docs",
+  "publicationUri": "at://did:plc:usidppasjec2ycf6na3ipzfy/site.standard.publication/3mttzelnjry2v",
+  "pathTemplate": "/",
+  "bluesky": {
+    "enabled": false
+  },
+  "frontmatter": {
+    "coverImage": "image"
+  },
+  "publishContent": true
+}

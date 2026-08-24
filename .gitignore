@@ -3,3 +3,5 @@ archive/
 research/
 working/
 experiments/
+
+.sequoia-state.json
