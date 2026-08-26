@@ -2,11 +2,16 @@
 title: "Ghosts in the Machines"
 status: published
 publishDate: 2026-08-16
-updatedAt: 2026-08-21
+updatedAt: 2026-08-26
 draft: false
+lang: en-GB
 tags:
   - artificial intelligence
-  - anthropomorphism
+  - AI anthropomorphism
+  - AI consciousness
+  - large language models
+  - generative AI
+  - technology criticism
 description: "Notes on the anthropomorphism trap and what happens when we confuse the model with the thing itself."
 description-meta: "Notes on the anthropomorphism trap and what happens when we confuse the model with the thing itself."
 image: "media/THX-1138-confession-booth.jpg"
@@ -15,18 +20,67 @@ header-includes: |
   <meta property="og:description" content="Notes on the anthropomorphism trap and what happens when we confuse the model with the thing itself.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://drew3000.github.io/ghosts-in-the-machines/">
+  <meta name="author" content="Andrew Ford Lyons">
+  <meta property="article:published_time" content="2026-08-16">
+  <meta property="article:modified_time" content="2026-08-26">
+  <meta property="article:author" content="https://andrewfordlyons.net/">
+  <meta property="article:section" content="Technology">
+  <meta property="article:tag" content="Artificial intelligence">
+  <meta property="article:tag" content="AI anthropomorphism">
+  <meta property="article:tag" content="AI consciousness">
+  <meta property="article:tag" content="Large language models">
   <link rel="canonical" href="https://drew3000.github.io/ghosts-in-the-machines/">
   <link rel="site.standard.publication" href="at://did:plc:usidppasjec2ycf6na3ipzfy/site.standard.publication/3mttzelnjry2v">
   <link rel="site.standard.document" href="at://did:plc:usidppasjec2ycf6na3ipzfy/site.standard.document/3mtu2b3vfr72l">
   <meta property="og:image" content="https://drew3000.github.io/ghosts-in-the-machines/media/THX-1138-confession-booth.jpg">
+  <meta property="og:image:alt" content="A man in a white uniform faces a giant projected face in a confession booth from THX 1138.">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Ghosts in the Machines">
   <meta name="twitter:description" content="Notes on the anthropomorphism trap and what happens when we confuse the model with the thing itself.">
   <meta name="twitter:image" content="https://drew3000.github.io/ghosts-in-the-machines/media/THX-1138-confession-booth.jpg">
+  <meta name="twitter:image:alt" content="A man in a white uniform faces a giant projected face in a confession booth from THX 1138.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "@id": "https://drew3000.github.io/ghosts-in-the-machines/#article",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://drew3000.github.io/ghosts-in-the-machines/"
+    },
+    "headline": "Ghosts in the Machines",
+    "description": "Notes on the anthropomorphism trap and what happens when we confuse the model with the thing itself.",
+    "url": "https://drew3000.github.io/ghosts-in-the-machines/",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://drew3000.github.io/ghosts-in-the-machines/media/THX-1138-confession-booth.jpg",
+      "width": 2000,
+      "height": 852
+    },
+    "datePublished": "2026-08-16",
+    "dateModified": "2026-08-26",
+    "inLanguage": "en-GB",
+    "author": {
+      "@type": "Person",
+      "name": "Andrew Ford Lyons",
+      "url": "https://andrewfordlyons.net/"
+    },
+    "articleSection": "Technology",
+    "keywords": [
+      "artificial intelligence",
+      "AI anthropomorphism",
+      "AI consciousness",
+      "large language models",
+      "generative AI",
+      "technology criticism"
+    ],
+    "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+  }
+  </script>
 atUri: "at://did:plc:usidppasjec2ycf6na3ipzfy/site.standard.document/3mtu2b3vfr72l"
 ---
 
-# Ghosts in the Machines <span class="byline">by <a href="https://andrewfordlyons.net">yours truly</a></span> <span class="publication-meta">First pushed live <time datetime="2026-08-16">16 August 2026</time> · Last updated <time datetime="2026-08-21">21 August 2026</time></span> {#ghosts-in-the-machines}
+# Ghosts in the Machines <span class="byline">by [yours truly](https://andrewfordlyons.net/){aria-label="Andrew Ford Lyons" title="Andrew Ford Lyons" rel="author"}</span> <span class="publication-meta">First pushed live <time datetime="2026-08-16">16 August 2026</time> · Last updated <time datetime="2026-08-26">26 August 2026</time></span> {#ghosts-in-the-machines}
 
 The artificial intelligence companies have established a useful new principle of authorship: if some writing can be found anywhere on the internet, you can shovel it into a machine, grind it into a fine statistical paste and use the resulting data blob to make something called *new*. I don't have a data centre, or several billion dollars in venture capital to burn through. Or a reservoir I can quietly drain. Sad. But I do have access to the zip file with the remains of [my old blog](https://web.archive.org/web/*/https://dystopia.report/). So I'm going to exercise the limited version of the same privilege and steal from myself. What follows is a mashup of four posts I banged out between September 2024 and March 2025, now Frankensteined together with new and exciting material. Think of this as part director's cut and salvage operation. You never read those posts anyway. All of this is new to you.
 
@@ -545,3 +599,7 @@ My point, and I do have one, is that LLM chatbots can't come up with new ideas, 
   <iframe src="https://www.youtube.com/embed/VClXwECU-dQ" title="Lights and Wires in a Box: Edward R. Murrow’s RTNDA speech" width="560" height="315" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <figcaption>Edward R. Murrow was talking about television here, but the message works with any major technological advancement. So I leave you with it. Make the connection yourself, it's what your brain was built to do.</figcaption>
 </figure>
+
+<footer class="site-footer">
+This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+</footer>

@@ -8,7 +8,14 @@ end
 function Link(link)
   if link.target:match("^https?://") then
     link.attributes["target"] = "_blank"
-    link.attributes["rel"] = "noopener noreferrer"
+    local rel = link.attributes["rel"] or ""
+    if not rel:match("%f[%w]noopener%f[%W]") then
+      rel = rel == "" and "noopener" or rel .. " noopener"
+    end
+    if not rel:match("%f[%w]noreferrer%f[%W]") then
+      rel = rel .. " noreferrer"
+    end
+    link.attributes["rel"] = rel
   end
   return link
 end

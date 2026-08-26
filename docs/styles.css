@@ -95,6 +95,24 @@ h1 .publication-meta {
   text-shadow: 0 0 0.4em #000;
 }
 
+.site-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+  color: var(--muted);
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+.site-footer img {
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+
 h2 {
   position: relative;
   width: fit-content;
